@@ -292,6 +292,10 @@ section .cards .card {
 
 }
 
+section .cards .card p{ 
+  padding-bottom: 15px;
+}
+
 
 .portfolio .cards .card {
   padding: 0 0 20px;

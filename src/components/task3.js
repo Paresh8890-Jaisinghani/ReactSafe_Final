@@ -9,17 +9,15 @@ const Task3 = () => {
             <div class="info_box">
                 <div class="info-title"><span>Instructions</span></div>
                 <div class="info-list">
-                    <div class="info">1. Stop timer precisely at target time after start.</div>
-                    <div class="info">2. Click the "Start Timer" button to begin the timer countdown.</div>
-                    <div class="info">3.
-                        Timer visible for 5 seconds, then hide, count internally &nbsp; after. </div>
-                    <div class="info">4. Click "Stop Timer" at target time.</div>
-                    <div class="info">5.
-                        Score based on proximity to target time. Aim for precision.</div>
-                </div>
+                    <div class="info">1. Click the "Start Timer" button to start the countdown.</div>
+                    <div class="info">2. The timer will be visible for the first 5 seconds.</div>
+                    <div class="info">3. After 5 seconds, the timer will be hidden but continue to count internally. </div>
+                    <div class="info">4. Click the "Stop Timer" button at the target time.</div>
+                    <div class="info">5. Good luck and aim for precision!.</div>
+</div>
                 <div class="buttons">
                     {/* <button class="quit">Exit Test</button> */}
-                    <a href="http://127.0.0.1:5502/Task3Actual/index.html"><button class="restart">Continue</button></a>
+                    <a href="http://127.0.0.1:5502/Precision_Fronted/index.html"><button class="restart">Continue</button></a>
                 </div>
             </div>
         </div>

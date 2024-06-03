@@ -10,8 +10,8 @@ const Task5 = () => {
                 <div class="info-list">
                     {/* <div class="info">1. To start the game, click the "Start" button.</div> */}
                     <div class="info">1. Use the left and right arrow keys to switch lanes.</div>
-                    <div class="info">2. Watch for cars, switch lanes quickly to avoid collisions ahead.</div>
-                    <div class="info">3. There are three rounds to the test, each with a higher level of difficulty.</div>
+                    <div class="info">2. Watch for cars and switch lanes quickly to avoid collisions ahead.</div>
+                    <div class="info">3. There are three rounds of the test, each with a higher level of difficulty.</div>
                     <div class="info">4. Earn points for each car passed safely without any collisions.</div>
                     <div class="info">5. Drive safely by anticipating car speeds and distances. Have fun!</div>
                 </div>

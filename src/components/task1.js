@@ -8,11 +8,11 @@ const Task1 = () => {
             <div class="info_box">
                 <div class="info-title"><span>Instructions</span></div>
                 <div class="info-list">
-                    <div class="info">1. Press screen when background color changes.</div>
-                    <div class="info">2. Click anywhere on blue screen when ready for test.</div>
-                    <div class="info">3. Click quickly after background changes to green.</div>
-                    <div class="info">4. You have three chances for the test.</div>
-                    <div class="info">5. Average time taken is your final score for the test.</div>
+                    <div class="info">1. Wait for the background color to change.</div>
+                    <div class="info">2. Once the background turns green, click the screen.</div>
+                    <div class="info">3. You have three chances for the test.</div>
+                    <div class="info">4. The average time taken will be your final test score.</div>
+                    <div class="info">5. Good luck, and try to react as quickly as possible!</div>
                 </div>
                 <div class="buttons">
                     {/* <button class="quit">Exit Test</button> */}
