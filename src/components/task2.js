@@ -8,7 +8,7 @@ const Task2 = () => {
             <div class="info_box">
                 <div class="info-title"><span>Instructions</span></div>
                 <div class="info-list">
-                    <div class="info">1. You will have 15 seconds for each question.</div>
+                    <div class="info">1. You will have <b>15 seconds</b> for each question.</div>
                     <div class="info">2. Once you select your answer, it can't be changed.</div>
                     <div class="info">3. You can't select any option once the time is up.</div>
                     <div class="info">4. You'll get points on the basis of your correct answers.</div>

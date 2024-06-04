@@ -9,7 +9,7 @@ const Task1 = () => {
                 <div class="info-title"><span>Instructions</span></div>
                 <div class="info-list">
                     <div class="info">1. Wait for the background color to change.</div>
-                    <div class="info">2. Once the background turns green, click the screen.</div>
+                    <div class="info">2. Once the background turns <b>Green</b>, click the screen.</div>
                     <div class="info">3. You have three chances for the test.</div>
                     <div class="info">4. The average time taken will be your final test score.</div>
                     <div class="info">5. Good luck, and try to react as quickly as possible!</div>
