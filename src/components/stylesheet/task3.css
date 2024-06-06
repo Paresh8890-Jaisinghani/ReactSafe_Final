@@ -117,6 +117,10 @@
     color: #fff;
     background: #007bff;
 }
+.space{
+    margin-left: 18px;
+    display: inline-block;
+}
 
 @media(max-width :700px) {
     .info_box{

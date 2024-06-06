@@ -1,51 +1,54 @@
-.home {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+.background {
+  background-image: url('../images/reaction.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
 }
 
 .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  font-weight: 800;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.content h1 {
-  font-size: 80px;
-  font-weight: 600;
+.title {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  background: var(--primary-color);
-  color: #fff;
-  border: 1px #fff solid;
-  border-radius: 5px;
-  margin-top: 25px;
-}
-
-.btn:hover {
-  border: 1px #fff solid;
-  transform: scale(0.98);
+.continue-button {
   background-color: white;
   color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.social a {
-  margin: 0 5px;
+.continue-button:hover {
+  background-color: #f0f0f0;
+}
+
+.col{
+  width: 100%;
+  margin-top: 100px;
+}
+.col{
+ 
+}
+
+@media (max-width:600px) {
+  
 }

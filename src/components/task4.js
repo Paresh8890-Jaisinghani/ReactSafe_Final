@@ -11,10 +11,10 @@ const Task4 = () => {
                 <div class="info-list">
                     {/* <div class="info">1. To start the game, click the "Start" button.</div> */}
                     <div class="info">1. Lights change at random: red, amber, and green.</div>
-                    <div class="info">2. Press the <b>spacebar</b> or <b>"click"</b> button when the <b>green</b> light appears.</div>
+                    <div class="info">2. Press the <b>spacebar</b> or <b>"click"</b> button when the <b>green</b> <div className="space">light appears.</div></div>
                     <div class="info">3. Earn one point for each correct press or "click".</div>
                     <div class="info">4. Each round lasts for 10 seconds.</div>
-                    <div class="info">5. Good luck and try to achieve the highest accuracy possible!</div>
+                    <div class="info">5. Good luck and try to achieve the highest accuracy <div className="space">possible!</div></div>
                 </div>
                 <div class="buttons">
                     {/* <button class="quit">Exit Test</button> */}

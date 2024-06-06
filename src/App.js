@@ -13,6 +13,7 @@ import Task3 from './components/task3';
 import Task4 from './components/task4';
 import Task5 from './components/task5';
 import LastPage from './components/last';
+import CoverPage from './components/description'
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <Route path="/task4" element ={<Task4/>}/>
         <Route path="/task5" element ={<Task5/>}/>
         <Route path="/last" element = {<LastPage/>}/>
+        <Route path='/description' element ={<CoverPage/>}/>
+
       </Routes>
     </>
   );
