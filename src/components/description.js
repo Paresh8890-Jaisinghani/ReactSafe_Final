@@ -4,13 +4,18 @@ import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/description.css';
 
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
+
+
 const Cover = () => {
     return (
         <>
         <div className="background">
           <div className="content">
             <h1 className="title">Reaction Time Test</h1>
-            <a href='http://localhost:3000/task1'>
+            <a href='/task1'>
             <button className="continue-button">Continue</button>
             </a>    
           </div>
@@ -39,7 +44,7 @@ const Cover = () => {
           width="140"
           height="140"
         />
-        <h2 className="fw-normal mt-4">Working</h2>
+        <h2 className="fw-normal mt-4">Functioning</h2>
         <p>Measure your reaction time by clicking quickly when a visual signal appears. Track and improve your reflexes.</p>
        
       </div>
@@ -52,7 +57,7 @@ const Cover = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">Feedback</h2>
-        <p>Get personalized feedback on your reaction time. Improve your driving reflexes for safer, more responsive driving.</p>
+        <p>Get personalized feedback on your reaction time. Improve your driving reflexes for safer and more responsive driving.</p>
       </div>
     </div>
 </section>
@@ -61,8 +66,8 @@ const Cover = () => {
 <footer>
         <div>
             <span>Copyright © 2024 All Rights Reserved</span>
-            <span class="link">
-                <a href="http://localhost:3000/">Home</a>
+            <span className="link">
+                <a href="/">Home</a>
             </span>
         </div>
     </footer>

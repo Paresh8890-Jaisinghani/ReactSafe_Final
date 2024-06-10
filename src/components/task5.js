@@ -17,7 +17,7 @@ const Task5 = () => {
                 </div>
                 <div class="buttons">
                     {/* <button class="quit">Exit Test</button> */}
-                    <a href="http://127.0.0.1:5504/Task5Actual/index.html"><button class="restart">Continue</button></a>
+                    <a href="http://127.0.0.1:5504/Obstacle_Fronted/index.html"><button class="restart">Continue</button></a>
                 </div>
             </div>
         </div>
