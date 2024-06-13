@@ -3,23 +3,26 @@ import work from './images/work.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/description.css';
-
-window.onload = function() {
-  window.scrollTo(0, 0);
-};
+import sample from './images/reaction1.mp4'
+import { Link } from 'react-router-dom';
 
 
 const Cover = () => {
     return (
         <>
-        <div className="background">
-          <div className="content">
-            <h1 className="title">Reaction Time Test</h1>
-            <a href='/task1'>
-            <button className="continue-button">Continue</button>
-            </a>    
-          </div>
-        </div>
+      <div className="home">
+      <video className="background-video" autoPlay loop muted>
+        <source src={sample} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      
+      <div class="cont">
+        <h1>Reaction Time Test</h1>
+        {/* <Link to="http://127.0.0.1:5505/" class="btn">Get Started</Link > */}
+
+       
+      </div>
+    </div>
 
 
 <section className="col">
@@ -62,6 +65,12 @@ const Cover = () => {
     </div>
 </section>
 
+
+<section className='next'>
+
+<Link to='/task1' className='btn'>Continue</Link>
+
+  </section>    
 
 <footer>
         <div>

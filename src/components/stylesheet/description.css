@@ -1,45 +1,61 @@
-.background {
-    background-image: url('../images/reaction1.png');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .content {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  }
-  
-  .title h1 {
-    font-size: 1em;
-    margin-bottom: 20px;
-  }
-  
-  .continue-button {
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.cont {
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.cont h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.next .btn {
   display: inline-block;
   padding: 10px 30px;
-  
-  color: #fff;
-  border: 1px #fff solid;
-  font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
+  background: var(--primary-color);
+  color: rgb(4, 64, 214);
+  border: 2px rgb(0, 0, 0) solid;
   border-radius: 5px;
-  margin-top: 25px;
-  color: black;
-  background-color: #f0f0f0;
-  }
-  
-  .continue-button:hover {
-    color: white;
-    background: var(--primary-color);
-    transform: scale(0.98);
-  }
-  
 
+}
+
+.next .btn:hover {
+  transform: scale(0.98);
+  background-color: rgb(19, 18, 18);
+  color: rgb(255, 255, 255);
+}
+
+.social a {
+  margin: 0 5px;
+}
   .row{
     width: 100%;
     margin: 100px 0px 100px 0px;
@@ -71,4 +87,20 @@ footer {
   footer a {
     padding: 0;
     color: white;
+  }
+
+  @media (max-width: 800px) {
+    .cont h1 {
+      font-size: 45px;
+      font-weight: 600;
+    }
+  }
+
+
+
+  @media (max-width: 700px) {
+    .cont h1 {
+      font-size: 40px;
+      font-weight: 600;
+    }
   }
