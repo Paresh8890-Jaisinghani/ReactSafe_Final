@@ -11,7 +11,7 @@ const Task3 = () => {
                 <div class="info-list">
                     <div class="info">1. Click the "Start Timer" button to start the countdown.</div>
                     <div class="info">2. The timer will be visible for the first <b>5 seconds</b>.</div>
-                    <div class="info">3. After 5 seconds, the timer will be hidden but continue <div className="space">to <b>count internally</b>.</div> </div>
+                    <div class="info">3. After 5 seconds, the timer will be hidden but continue <div className="space">to <b>count in mind</b>.</div> </div>
                     <div class="info">4. Click the "Stop Timer" button at the <b>target time</b>.</div>
                     <div class="info">5. Good luck and aim for precision!.</div>
 </div>

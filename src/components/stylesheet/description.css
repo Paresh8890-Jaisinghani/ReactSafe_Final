@@ -1,21 +1,47 @@
-.home {
-  position: relative;
-  width: 100%;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-image: url('../images/reaction1.png');
   height: 100vh;
-  overflow: hidden;
-  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
 }
 
-.background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+.content {
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.title {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.continue-button {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: transparent;
+  transition: .4s;
+  color: white;
+}
 .cont {
   position: relative;
   top: 90%;
@@ -90,9 +116,17 @@ footer {
     color: white;
   }
 
+  .vid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
   @media (max-width: 800px) {
-    .cont h1 {
-      font-size: 45px;
+    .content h1 {
+      font-size: 70px;
       font-weight: 600;
     }
   }
@@ -101,7 +135,8 @@ footer {
 
   @media (max-width: 700px) {
     .cont h1 {
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 600;
     }
   }
+

@@ -10,20 +10,14 @@ import { Link } from 'react-router-dom';
 const Cover = () => {
     return (
         <>
-      <div className="home">
-      <video className="background-video" autoPlay loop muted>
-        <source src={sample} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      
-      <div class="cont">
-        <h1>Reaction Time Test</h1>
-        {/* <Link to="http://127.0.0.1:5505/" class="btn">Get Started</Link > */}
-
-       
-      </div>
-    </div>
-
+       <div className="background">
+          <div className="content">
+            <h1 className="title">Reaction Time Test</h1>
+            <a href='http://localhost:3000/task1'>
+            <button className="continue-button">Continue</button>
+            </a>    
+          </div>
+        </div>
 
 <section className="col">
 <div className="row">
@@ -63,6 +57,14 @@ const Cover = () => {
         <p>Get personalized feedback on your reaction time. Improve your driving reflexes for safer and more responsive driving.</p>
       </div>
     </div>
+</section>
+
+<section className='vid'>
+  <div className="center">
+<video src={sample} width="600" height="300" controls="controls" autoplay="true" muted = "true" />
+<p>We recommend that you look at the test demo.</p>
+  </div>
+
 </section>
 
 
