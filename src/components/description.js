@@ -47,7 +47,7 @@ const Cover = () => {
           width="140"
           height="140"
         />
-        <h2 className="fw-normal mt-4">Functioning</h2>
+        <h2 className="fw-normal mt-4">Test</h2>
         <p>Measure your reaction time by clicking quickly when a visual signal appears. Track and improve your reflexes.</p>
        
       </div>

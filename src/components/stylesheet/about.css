@@ -268,3 +268,15 @@ element.style {
 }
 
 
+@media (max-width : 600px) {
+  .homepage .conte h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+  }
+}
+
+.left{
+  margin-left: 10px;
+  display: inline-block;
+}

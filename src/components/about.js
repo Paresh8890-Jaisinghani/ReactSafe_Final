@@ -1,16 +1,15 @@
 // About.js
 import React, { useEffect } from 'react';
-import Swiper, { Pagination, Navigation } from 'swiper';
+import Swiper, { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './stylesheet/about.css'; // Assuming you put the CSS styles in About.css
+import 'swiper/css/pagination';
+import './stylesheet/about.css'
 import reaction  from './images/reaction.jpg'
 import  obstacle from './images/obstacle.jpg'
 import trafficlight from './images/trafficlight.jpg'
 import quiz from  './images/quiz.jpg'
 import precision from './images/precision.jpg'
-
 
 const About = () => {
   useEffect(() => {
@@ -47,6 +46,7 @@ const About = () => {
       },
     });
   }, []);
+
 
   return (
     <div>
@@ -145,33 +145,33 @@ const About = () => {
         <ul className="cards">
           <li className="card">
             <h3>Reaction Time Test</h3>
-            <p>• Measures reaction time to prevent accidents.</p>
-            <p>• Determines drivers' ability to react quickly.</p>
+            <p>• Measures reaction time to prevent <span className='left'>accidents.</span></p>
+            <p>• Determines drivers' ability to react <span className='left'>quickly.</span></p>
             <p>• Improves driving skills and safety.</p>
           </li>
           <li className="card">
             <h3>Rapid Quiz</h3>
-            <p>• Tests drivers' knowledge of traffic signals and signs.</p>
-            <p>• Helps drivers understand and remember traffic rules.</p>
-            <p>• Promotes safer driving and reduces accidents.</p>
+            <p>• Tests drivers' knowledge of traffic signals <span className='left'> and signs.</span></p>
+            <p>• Helps drivers understand and remember <span className='left'>traffic rules.</span></p>
+            <p>• Promotes safer driving and reduces <span className='left'>accidents.</span></p>
           </li>
           <li className="card">
             <h3>Precision Timer Challenge</h3>
-            <p>• Improves control and decision-making skills.</p>
-            <p>• Promotes quick responses and driving skills.</p>
-            <p>• Promotes safer and more confident driving.</p>
+            <p>• Improves control and decision-making <span className='left'>skills.</span> </p>
+            <p>• Promotes quick responses and driving <span className='left'>skills.</span></p>
+            <p>• Allows safer and more confident <span className='left'>driving.</span></p>
           </li>
           <li className="card">
             <h3>Traffic Light Simulation</h3>
-            <p>• Tests your reaction to changing traffic signals.</p>
-            <p>• Improves awareness, reactions, and control.</p>
+            <p>• Tests your reaction to changing traffic<span className='left'> signals.</span></p>
+            <p>• Improves awareness, reactions, and <span className='left'>control.</span></p>
             <p>• Promotes quick thinking and precision.</p>
           </li>
           <li className="card">
             <h3>Obstacle Test</h3>
-            <p>• Challenges drivers to navigate while maintaining speed.</p>
-            <p>• Enhances awareness, reflexes, and control.</p>
-            <p>• Prepares drivers for unexpected road situations.</p>
+            <p>• Challenges drivers to navigate while<span className='left'> maintaining speed.</span></p>
+            <p>• Enhances awareness, reflexes, and <span className='left'>control.</span></p>
+            <p>• Prepares drivers for unexpected road <span className='left'>situations.</span></p>
           </li>
         </ul>
       </section>
