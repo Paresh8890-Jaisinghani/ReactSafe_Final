@@ -16,6 +16,8 @@ import LastPage from './components/last';
 import Reaction from './components/reaction';
 import Quiz from './components/quiz'
 import Precision from './components/precision.js'
+import Traffic from './components/traffic.js'
+import Obstacle from './components/obstacle.js'
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path='/reaction' element ={<Reaction/>}/>
         <Route path='/quiz' element ={<Quiz/>}/>
         <Route path='/precision' element ={<Precision/>}/>
+        <Route path='/traffic' element ={<Traffic/>}/>
+        <Route path='/obstacle' element ={<Obstacle/>}/>
 
 
       </Routes>
