@@ -15,6 +15,7 @@ import Task5 from './components/task5';
 import LastPage from './components/last';
 import Reaction from './components/reaction';
 import Quiz from './components/quiz'
+import Precision from './components/precision.js'
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path="/last" element = {<LastPage/>}/>
         <Route path='/reaction' element ={<Reaction/>}/>
         <Route path='/quiz' element ={<Quiz/>}/>
+        <Route path='/precision' element ={<Precision/>}/>
+
 
       </Routes>
     </>
