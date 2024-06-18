@@ -32,7 +32,7 @@ const Task2 = () => {
             </a>
           </div>
         </div>
-        <div className="video-container">
+        <div className="video-co">
           <video
             className="video"
             src={quiz} // Path to your video file

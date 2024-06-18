@@ -59,13 +59,13 @@ const Reaction = () => {
     </div>
 </div>
 
-<div className='vid'>
+{/* <div className='vid'>
   <div className="center">
 <video src={sample} width="600" height="300" controls="controls" autoplay="true" muted = "true" />
 <p>We recommend that you look at the test demo.</p>
   </div>
 
-</div>
+</div> */}
 
 
 <div className='next'>

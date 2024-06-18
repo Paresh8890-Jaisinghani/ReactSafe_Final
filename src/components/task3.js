@@ -8,7 +8,7 @@ const Task3 = () => {
             <div className="head">Precision Timer</div>
 
             <div className="content-container">
-                <div className="info-box">
+                <div className="info-bo">
                     <div className="info-title"><span>Instructions</span></div>
                     <div className="info-list">
                         <div className="info">1. Click the "Start Timer" button to start the countdown.</div>

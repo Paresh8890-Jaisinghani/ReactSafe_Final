@@ -7,7 +7,7 @@ const Task1 = () => {
     <div className="task">
       <div className="head">Reaction Time Test</div>
       <div className="content-container">
-        <div className="info-box">
+        <div className="info-b0">
           <div className="info-title">
             <span>Instructions</span>
           </div>
