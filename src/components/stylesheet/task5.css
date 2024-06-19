@@ -41,7 +41,7 @@
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 0px 20px;
+  padding: 10px 20px;
   margin-right: 20px;
   margin-bottom: 70px;
   margin-left: 10px;
@@ -70,7 +70,13 @@
 
 .info-list .info span {
   font-weight: 600;
-  color: #007bff;
+  color: black;
+}
+
+.info .left{
+  color: black;
+  display: inline-block;
+  margin-left: 18px;
 }
 
 .buttons {
@@ -149,7 +155,10 @@
     margin-right: 0;
     margin-bottom: 20px;
   }
-
+  .info .left{
+    display: inline-block;
+    margin-left: 0px;
+  }
   .video-container {
     width: 80%;
   }

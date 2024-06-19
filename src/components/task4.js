@@ -13,11 +13,11 @@ const Task4 = () => {
                         <span>Instructions</span>
                     </div>
                     <div class="info-list">
-                        <div class="info">1. To start the game, click the "Start" button.</div>
                         <div class="info">1. Lights change at random: red, amber, and green.</div>
-                        <div class="info">2. Press the <b>spacebar</b> or <b>"click"</b> button when the <b>green</b> <div className="space">light appears.</div></div>
-                        <div class="info">3. Earn one point for each correct press or "click".</div>
+                        <div class="info">2. Press the <b>spacebar</b> or <b>"click"</b> button when the <span className="left"><b>green</b> light appears.</span></div>
+                        <div class="info">3. Earn one point for each correct "press" or "click".</div>
                         <div class="info">4. Each round lasts for 10 seconds.</div>
+                        <div className="info">5. Good luck for the test !</div>
                     </div>
                     <div class="buttons">
                         <a href="http://127.0.0.1:5503/Light_Fronted/index.html"><button class="restart">Continue</button></a>
