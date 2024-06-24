@@ -12,7 +12,7 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background: #40597a;
+  background:white;
   overflow-x: hidden;
 }
 
@@ -21,18 +21,19 @@
   margin-top: 0px;
   padding-bottom: 10px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.463);
-  border-radius: 5px;
+  background: rgb(0, 0, 0);
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  color: white;
 }
 
 .content-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 90px;
+  flex-direction: column;
 }
 
 .info-b1 {
@@ -61,6 +62,7 @@
 
 .info-list {
   padding: 5px 30px;
+  
 }
 
 .info-list .info {

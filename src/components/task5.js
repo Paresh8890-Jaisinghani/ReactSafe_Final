@@ -19,7 +19,7 @@ const Task5 = () => {
                  <div class="info">5. Drive safely by anticipating car speed and distance.</div>
              </div>
                     <div class="buttons">
-                        <a href="http://127.0.0.1:5503/Light_Fronted/index.html"><button class="restart">Continue</button></a>
+                        <a href="http://127.0.0.1:5504/Obstacle_Fronted/index.html"><button class="restart">Continue</button></a>
                     </div>
                 </div>
                 <div className="video-container">
