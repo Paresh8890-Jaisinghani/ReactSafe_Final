@@ -47,7 +47,7 @@ const Contact = () => {
             catch(e){
                 console.log(e);
             }
-                navigate('/description')
+                navigate('/reaction')
             })
             .catch(error => console.log(error));
     }

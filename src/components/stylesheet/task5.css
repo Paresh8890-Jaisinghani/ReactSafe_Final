@@ -128,13 +128,16 @@
   width: 52%;
   display: flex;
   flex-direction: column;
+  
   /* align-items: center;
   justify-content: center; */
 }
 
 .video {
   width: 100%;
+  padding: 20px;
   height: auto;
+  
 }
 
 .video-container p {

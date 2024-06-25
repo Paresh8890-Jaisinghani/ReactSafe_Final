@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./stylesheet/task1.css";
 import reaction from "./images/reaction1.mp4";
 
@@ -23,13 +24,14 @@ const Task1 = () => {
               4. The average time taken will be your final test score.
             </div>
             <div className="info">
-              5. Good luck, and try to react as quickly as possible!
+              5. We recommend that you look at the test demo below.
+            </div>
+            <div className="info">
+              6. Good luck, and try to react as quickly as possible!
             </div>
           </div>
           <div className="buttons">
-            <a href="http://127.0.0.1:5500/Reaction_fronted/index.html">
-              <button className="restart">Continue</button>
-            </a>
+           
           </div>
         </div>
         <div className="video-contain">
@@ -42,10 +44,28 @@ const Task1 = () => {
             autoPlay
             muted
           />
-          <p>We recommend that you look at the test demo.</p>
+          {/* <p>We recommend that you look at the test demo.</p> */}
         </div>
       </div>
+
+
+  <div className='next'>
+
+<Link to='http://127.0.0.1:5500/Reaction_fronted/index.html' className='btn'>Continue</Link>
+
+  </div>    
+
+  <footer>
+        <div>
+            <span>Copyright © 2024 All Rights Reserved</span>
+            <span className="link">
+                <a href="/">Home</a>
+            </span>
+        </div>
+    </footer>
+    
     </div>
+    
   );
 };
 
