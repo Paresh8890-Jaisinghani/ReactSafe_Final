@@ -52,7 +52,7 @@ const Task3 = () => {
                             5. We recommend that you look at the test demo below.
                         </div>
                         <div className="info">
-                            6. Good luck, and try to react as quickly as possible!
+                            6. Good luck, and be as accurate as possible!
                         </div>
                     </div>
                     <div className="buttons">
