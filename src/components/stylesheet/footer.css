@@ -1,6 +1,7 @@
 .footer {
+	box-sizing: border-box;
 	width: 100%;
-	background: black;
+	background-color: rgb(24 24 27);
 	color: white;
 }
 
@@ -97,7 +98,7 @@ color: rgba(118, 118, 255, 0.884);
 
 @media screen and (max-width : 640px) {
 	.footer-container {
-		grid-template-columns: 1fr;
+		grid-template-columns: 2fr;
 	}
 }
 
