@@ -3,12 +3,12 @@ import MissionSection from './stylesheet/mission.js';
 import OurCreativeMind from './stylesheet/creative.js';
 import './stylesheet/last.css'
 // import Contact from './stylesheet/message.js';
-import Footer from './footer.js';
+// import Footer from './footer.js';
 function LastPage() {
 
   return (
     <>
-    <nav className="navbar">
+      <nav className="navbar">
         <h2 className="logo"><a href="/">ReactSafe</a></h2>
         <input type="checkbox" id="menu-toggler" />
         <label htmlFor="menu-toggler" id="hamburger-btn">
@@ -21,10 +21,58 @@ function LastPage() {
           <li><a href="/">Home</a></li>
         </ul>
       </nav>
-     <MissionSection/>
-     <OurCreativeMind/>
-     <Footer/>
-     </>
+      <div className="backg">
+        <div className="content">
+          <h1 className="title">Thank you for visiting!</h1>
+          {/* <a href='http://localhost:3000/task1'>
+            <button className="continue-button">Continue</button>
+            </a>     */}
+        </div>
+      </div>
+      <MissionSection />
+      <OurCreativeMind />
+      {/* <Footer/> */}
+      
+    
+      {/* <h1 className="bg-dark text-center text-white mb-0 pt-4">Contact Us</h1> */}
+      <footer className="bg-dark text-center text-white">
+        {/* Grid container */}
+        <div className="container p-4 pb-0">
+          {/* Section: Social media */}
+          <section className="mb-4">      
+          <a className="btn btn-outline-light btn-floating m-3" href="mailto:pareshjaisinghani882@gmail.com?subject=Hello%20There&body=This%20is%20the%20body%20of%20the%20email"target="_blank" role="button">
+      <i className="fas fa-envelope"></i>
+    </a>
+
+            {/* Instagram */}
+            <a className="btn btn-outline-light btn-floating m-3" href="https://www.instagram.com/p.a.r.e.s.h_24_/?next=%2F&hl=en" target="_blank" role="button">
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            {/* Linkedin */}
+            <a className="btn btn-outline-light btn-floating m-3" href="https://www.linkedin.com/in/paresh-jaisinghani-499950280/" target="_blank" role="button">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+
+            {/* Github */}
+            <a className="btn btn-outline-light btn-floating m-3" href="https://github.com/Paresh8890-Jaisinghani" target="_blank" role="button">
+              <i className="fab fa-github"></i>
+            </a>
+          </section>
+          {/* Section: Social media */}
+        </div>
+        {/* Grid container */}
+
+        {/* Copyright */}
+        <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+      <div className="text-center text-md-left mb-3 mb-md-0">
+        Copyright © 2024 All Rights Reserved
+      </div>
+      <a className="text-white" style={{ fontSize: '20px' }} href="/">ReactSafe</a>
+    </div>
+        {/* Copyright */}
+      </footer>
+    </>
   );
 }
 

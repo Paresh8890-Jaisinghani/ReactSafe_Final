@@ -1,7 +1,7 @@
 import React from 'react';
 import Myself from "../images/bg.png"
-import myself2 from "../images/bg.png"
-import myself3 from "../images/bg.png"
+import myself2 from "../images/paresh (2).png"
+import myself3 from "../images/sid.png"
 
 
 const sharedClasses = {
@@ -23,7 +23,7 @@ const sharedClasses = {
 
 const TeamMember = ({ name, role, imgSrc, altText }) => (
   <div className={sharedClasses.spaceY}>
-    <img className={`mx-auto ${sharedClasses.imgSize} ${sharedClasses.roundedFull}`}src={imgSrc} alt={altText} />
+    <img className={`mx-auto ${sharedClasses.imgSize} ${sharedClasses.roundedFull}`} src={imgSrc} alt={altText} />
     <div className={sharedClasses.textAlignCenter}>
       <h3 className={`text-lg leading-6 font-medium ${sharedClasses.textColor}`}>{name}</h3>
       <p className={`text-sm ${sharedClasses.textSecondaryColor}`}>{role}</p>
@@ -34,18 +34,18 @@ const TeamMember = ({ name, role, imgSrc, altText }) => (
 const OurCreativeMind = () => {
   return (
     <div className={sharedClasses.bgPrimaryColor + ' py-12'}>
-  <div className={`${sharedClasses.maxWidth} ${sharedClasses.marginAuto} ${sharedClasses.paddingX} ${sharedClasses.textAlignCenter}`}>
-    <h2 className={` underline underline-offset-4 text-4xl font-bold ${sharedClasses.textColor}`}>OUR CREATIVE MIND</h2>
-    <p className={`mt-4 text-xl leading-10 py-20  ${sharedClasses.textTertiaryColor}`}>
-      We are a diverse team of passionate professionals dedicated to delivering exceptional solutions. Each member brings unique skills and perspectives, contributing to our shared mission of innovation and excellence. Together, we strive to create a platform that not only meets but exceeds our users' expectations. Meet the talented individuals who make it all possible.
-    </p>
-    <div className={`${sharedClasses.marginY} ${sharedClasses.gridCols} ${sharedClasses.gap}`}>
-      <TeamMember name="LAKSHYA MUKHIJA" role="DESIGNER" imgSrc={Myself} altText="Profile 1" />
-      <TeamMember name="PARESH JAISINGHANI" role="DESIGNER" imgSrc={myself2} altText="Profile 2" />
-      <TeamMember name="SIDHARTH YADAV" role="DESIGNER" imgSrc={myself3} altText="Profile 3" />
+      <div className={`${sharedClasses.maxWidth} ${sharedClasses.marginAuto} ${sharedClasses.paddingX} ${sharedClasses.textAlignCenter}`}>
+        <h2 className={` underline underline-offset-4 text-4xl font-bold ${sharedClasses.textColor}`}>OUR CREATIVE MIND</h2>
+        <p className={`mt-4 text-xl leading-10 py-20  ${sharedClasses.textTertiaryColor}`}>
+          We are a diverse team of passionate professionals dedicated to delivering exceptional solutions. Each member brings unique skills and perspectives, contributing to our shared mission of innovation and excellence. Together, we strive to create a platform that not only meets but exceeds our users' expectations. Meet the talented individuals who make it all possible.
+        </p>
+        <div className={`${sharedClasses.marginY} ${sharedClasses.gridCols} ${sharedClasses.gap}`}>
+          <TeamMember name="LAKSHYA MUKHIJA" imgSrc={Myself} altText="Profile 1" />
+          <TeamMember name="PARESH JAISINGHANI" imgSrc={myself2} altText="Profile 2" />
+          <TeamMember name="SIDDHARTH YADAV" imgSrc={myself3} altText="Profile 3" />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   );
 };
 

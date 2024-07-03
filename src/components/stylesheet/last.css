@@ -1,3 +1,15 @@
+.backg {
+  background-image: url('../images/last.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+}
+
 footer {
   background-color: #333;
   color: white;
@@ -24,4 +36,8 @@ footer a {
 
 #hamburger-btn {
   display: none;
+}
+
+.foot{
+background-color: rgba(0, 0, 0, 0.05);
 }
