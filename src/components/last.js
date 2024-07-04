@@ -35,41 +35,47 @@ function LastPage() {
       
     
       {/* <h1 className="bg-dark text-center text-white mb-0 pt-4">Contact Us</h1> */}
-      <footer className="bg-dark text-center text-white">
+      <footer className="d-flex flex-column justify-content-center align-items-center bg-dark text-center text-white">
+        <h1 className='underline underline-offset-4 text-4xl font-bold mt-3'>Contact Us</h1>
         {/* Grid container */}
-        <div className="container p-4 pb-0">
+        <div className="d-flex flex-row justify-content-around align-items-center">
           {/* Section: Social media */}
-          <section className="mb-4">      
-          <a className="btn btn-outline-light btn-floating m-3" href="mailto:pareshjaisinghani882@gmail.com?subject=Hello%20There&body=This%20is%20the%20body%20of%20the%20email"target="_blank" role="button">
+          <section className="mb-2 mt-8">      
+          <a className="btn btn-outline-light btn-floating m-3 mx-4" href="mailto:pareshjaisinghani882@gmail.com?subject=Hello%20There&body=This%20is%20the%20body%20of%20the%20email"target="_blank" role="button">
       <i className="fas fa-envelope"></i>
     </a>
 
             {/* Instagram */}
-            <a className="btn btn-outline-light btn-floating m-3" href="https://www.instagram.com/p.a.r.e.s.h_24_/?next=%2F&hl=en" target="_blank" role="button">
+            <a className="btn btn-outline-light btn-floating m-3 mx-4" href="https://www.instagram.com/p.a.r.e.s.h_24_/?next=%2F&hl=en" target="_blank" role="button">
               <i className="fab fa-instagram"></i>
             </a>
 
+            <a className="btn btn-outline-light btn-floating m-3 mx-4" href="/" role="button">
+      <i className="fas fa-home"></i>
+    </a>
+
             {/* Linkedin */}
-            <a className="btn btn-outline-light btn-floating m-3" href="https://www.linkedin.com/in/paresh-jaisinghani-499950280/" target="_blank" role="button">
+            <a className="btn btn-outline-light btn-floating m-3 mx-4" href="https://www.linkedin.com/in/paresh-jaisinghani-499950280/" target="_blank" role="button">
               <i className="fab fa-linkedin-in"></i>
             </a>
 
             {/* Github */}
-            <a className="btn btn-outline-light btn-floating m-3" href="https://github.com/Paresh8890-Jaisinghani" target="_blank" role="button">
+            <a className="btn btn-outline-light btn-floating m-3 mx-4" href="https://github.com/Paresh8890-Jaisinghani" target="_blank" role="button">
               <i className="fab fa-github"></i>
             </a>
+
           </section>
           {/* Section: Social media */}
         </div>
         {/* Grid container */}
 
         {/* Copyright */}
-        <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+        {/* <div className="d-flex flex-column flex-md-row justify-content-between align-items-center px-5" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
       <div className="text-center text-md-left mb-3 mb-md-0">
         Copyright © 2024 All Rights Reserved
       </div>
       <a className="text-white" style={{ fontSize: '20px' }} href="/">ReactSafe</a>
-    </div>
+    </div> */}
         {/* Copyright */}
       </footer>
     </>

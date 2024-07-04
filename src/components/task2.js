@@ -48,7 +48,7 @@ const Task2 = () => {
     //   </div>
     // </div>
     <div className="task">
-    <div className="head">Rapid Quiz Test</div>
+    <div className="head">Traffic Sign Quiz</div>
     <div className="content-container">
       <div className="info-b0">
         <div className="info-title">

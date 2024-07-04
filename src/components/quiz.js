@@ -12,7 +12,7 @@ const Quiz = () => {
         <>
        <div className="back">
           <div className="content">
-            <h1 className="title">Rapid Quiz Test</h1>
+            <h1 className="title">Traffic Sign Quiz</h1>
             {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}

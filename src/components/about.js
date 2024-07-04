@@ -50,7 +50,7 @@ const About = () => {
 
   return (
     <div>
-      <nav className="navbar">
+      <nav className="navbar py-3">
         <h2 className="logo"><a href="/">ReactSafe</a></h2>
         <input type="checkbox" id="menu-toggler" />
         <label htmlFor="menu-toggler" id="hamburger-btn">
@@ -98,7 +98,7 @@ const About = () => {
                 </div>
                 <div className="profile-details">
                   <div className="name-job">
-                    <h3 className="name">Rapid Quiz</h3>
+                    <h3 className="name">Traffic Sign Quiz</h3>
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const About = () => {
             <p>• Improves driving skills and safety.</p>
           </li>
           <li className="card">
-            <h3>Rapid Quiz</h3>
+            <h3>Traffic Sign Quiz</h3>
             <p>• Tests drivers' knowledge of traffic signals <span className='left'> and signs.</span></p>
             <p>• Helps drivers understand and remember <span className='left'>traffic rules.</span></p>
             <p>• Promotes safer driving and reduces <span className='left'>accidents.</span></p>

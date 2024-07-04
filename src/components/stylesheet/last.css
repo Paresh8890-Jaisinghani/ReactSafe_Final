@@ -41,3 +41,7 @@ footer a {
 .foot{
 background-color: rgba(0, 0, 0, 0.05);
 }
+
+.navbar{
+  padding: 12px 0px;
+}

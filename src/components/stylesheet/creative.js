@@ -1,5 +1,5 @@
 import React from 'react';
-import Myself from "../images/bg.png"
+import Myself from "../images/lakshya.png"
 import myself2 from "../images/paresh (2).png"
 import myself3 from "../images/sid.png"
 
@@ -37,7 +37,7 @@ const OurCreativeMind = () => {
       <div className={`${sharedClasses.maxWidth} ${sharedClasses.marginAuto} ${sharedClasses.paddingX} ${sharedClasses.textAlignCenter}`}>
         <h2 className={` underline underline-offset-4 text-4xl font-bold ${sharedClasses.textColor}`}>OUR CREATIVE MIND</h2>
         <p className={`mt-4 text-xl leading-10 py-20  ${sharedClasses.textTertiaryColor}`}>
-          We are a diverse team of passionate professionals dedicated to delivering exceptional solutions. Each member brings unique skills and perspectives, contributing to our shared mission of innovation and excellence. Together, we strive to create a platform that not only meets but exceeds our users' expectations. Meet the talented individuals who make it all possible.
+        We are a group of dedicated professionals committed to delivering exceptional solutions. Each member brings distinct skills and perspectives to our shared purpose of innovation and achievement. We want to create a platform that meets and surpasses our users' expectations. Meet the talented individuals who make it all possible.
         </p>
         <div className={`${sharedClasses.marginY} ${sharedClasses.gridCols} ${sharedClasses.gap}`}>
           <TeamMember name="LAKSHYA MUKHIJA" imgSrc={Myself} altText="Profile 1" />
