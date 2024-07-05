@@ -96,6 +96,12 @@ html {
   }
   
 }
+
+/* .text h1{
+  
+} */
+
+
 /* 
 header {
   position: fixed;
@@ -171,6 +177,8 @@ header {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
+  margin: auto;
+  width: 85%;
 }
 
 .homepage .conte .regi a {

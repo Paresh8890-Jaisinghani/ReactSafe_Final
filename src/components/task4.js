@@ -49,7 +49,7 @@ const Task4 = () => {
                         <div class="info">1. Lights change at random: red, amber, and green.</div>
                         <div class="info">2. Press the <b>spacebar</b> or <b>"click"</b> button when the <span className="left"><b>green</b> light appears.</span></div>
                         <div class="info">3. Earn one point for each correct "press" or "click".</div>
-                        <div class="info">4. Each round lasts for 10 seconds.</div>
+                        <div class="info">4. Each round lasts for 15 seconds.</div>
                         <div class="info">5. We recommend that you look at the test demo below.</div>
                         <div className="info">6. Good luck for the test !</div>
                     </div>

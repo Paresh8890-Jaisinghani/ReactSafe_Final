@@ -1,6 +1,6 @@
 import React from 'react';
 import Myself from "../images/lakshya.png"
-import myself2 from "../images/paresh (2).png"
+import myself2 from "../images/paresh(2).png"
 import myself3 from "../images/sid.png"
 
 
