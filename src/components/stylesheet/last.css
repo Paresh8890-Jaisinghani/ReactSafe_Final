@@ -10,6 +10,21 @@
   opacity: 1;
 }
 
+.co {
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 80px;
+}
+
+.tit {
+  font-weight: 800;
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+
+
 footer {
   background-color: #333;
   color: white;
@@ -44,4 +59,10 @@ background-color: rgba(0, 0, 0, 0.05);
 
 .navbar{
   padding: 12px 0px;
+}
+
+@media (max-width : 700px){
+  .co .tit{
+  font-size: 50px;
+ }
 }

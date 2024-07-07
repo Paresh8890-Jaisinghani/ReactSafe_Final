@@ -46,13 +46,13 @@ const Task5 = () => {
                     </div>
                     <div className="info-list">
                         <div class="info">1. &nbsp;Use the <b>left</b> and <b>right</b> arrow keys to switch lanes.</div>
-                        <div class="info">2. There are three rounds of the test, each with a higher <span className="left">level of difficulty.</span></div>
+                        <div class="info">2. The test is divided into <b>three</b> rounds, each more difficult<span className="left">than the previous.</span></div>
                         <div class="info">3. The maximum score for each round is <b>15 car passes</b>.</div>
                         <div class="info">4. Earn points for each car passed safely without any <span className="left">collisions.</span></div>
                         <div className="info">
                             5. We recommend that you look at the test demo below.
                         </div>
-                        <div class="info">5. Drive safely by anticipating car speed and distance.</div>
+                        <div class="info">6. Drive safely by anticipating car speed and distance.</div>
                     </div>
                     <div className="buttons">
 

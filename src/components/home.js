@@ -1,7 +1,7 @@
 import React from 'react';
 import sample from './images/video.mp4'
 import { Link } from 'react-router-dom';
-
+import { ReactTyped } from "react-typed";
 import './stylesheet/home.css';
 
 const Home = () => {
@@ -13,7 +13,12 @@ const Home = () => {
       </video>
       
       <div class="content">
-        <h1>ReactSafe</h1>
+        <h1>
+        <ReactTyped strings={["ReactSafe"]} 
+         typeSpeed={150}
+         backSpeed={100}
+         cursorChar="|"
+         showCursor={true} /></h1>
         {/* <Link to="http://127.0.0.1:5505/" class="btn">Get Started</Link > */}
 
         <Link to='/about' className='btn'>Get Started</Link>

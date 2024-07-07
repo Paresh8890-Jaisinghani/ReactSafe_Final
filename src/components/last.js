@@ -2,6 +2,8 @@ import React from 'react';
 import MissionSection from './stylesheet/mission.js';
 import OurCreativeMind from './stylesheet/creative.js';
 import './stylesheet/last.css'
+import { ReactTyped } from "react-typed";
+
 // import Contact from './stylesheet/message.js';
 // import Footer from './footer.js';
 function LastPage() {
@@ -22,8 +24,15 @@ function LastPage() {
         </ul>
       </nav>
       <div className="backg">
-        <div className="content">
-          <h1 className="title">Thank you for visiting!</h1>
+        <div className="co">
+          <h1 className='tit'>Thank you for{" "}
+      </h1>
+         <h1 className='tit'>{" "}<ReactTyped strings={[" Participating."]} 
+         typeSpeed={100}
+         backSpeed={100}
+         cursorChar="|"
+         showCursor={true} />
+         </h1>
           {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}
