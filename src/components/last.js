@@ -3,6 +3,7 @@ import MissionSection from './stylesheet/mission.js';
 import OurCreativeMind from './stylesheet/creative.js';
 import './stylesheet/last.css'
 import { ReactTyped } from "react-typed";
+import lastvi from './images/lastvi.mp4'
 
 // import Contact from './stylesheet/message.js';
 // import Footer from './footer.js';
@@ -23,22 +24,45 @@ function LastPage() {
           <li><a href="/">Home</a></li>
         </ul>
       </nav>
-      <div className="backg">
+      {/* <div className="backg">
         <div className="co">
           <h1 className='tit'>Thank you for{" "}
       </h1>
-         <h1 className='tit'>{" "}<ReactTyped strings={[" Participating."]} 
+      <h1 className='tit'>
+      Participating.
+      </h1> */}
+       <div className="home">
+      <video className="background-video" autoPlay loop muted>
+        <source src={lastvi} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      
+      <div class="content">
+      <h1 className='tit'>Thank you for{" "}</h1>
+      <h1 className='tit'>{" "}<ReactTyped strings={[" Participating."]} 
          typeSpeed={100}
          backSpeed={100}
          cursorChar="|"
          showCursor={true} />
          </h1>
+
+        {/* <Link to="http://127.0.0.1:5505/" class="btn">Get Started</Link > */}
+
+        {/* <Link to='/about' className='btn'>Get Started</Link> */}
+      </div>
+    </div>
+         {/* <h1 className='tit'>{" "}<ReactTyped strings={[" Participating."]} 
+         typeSpeed={300}
+         backSpeed={100}
+         cursorChar="|"
+         showCursor={true} />
+         </h1> */}
           {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}
-        </div>
-      </div>
-      <MissionSection />
+        {/* </div>
+      </div> */}
+      {/* <MissionSection /> */}
       <OurCreativeMind />
       {/* <Footer/> */}
       

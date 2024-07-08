@@ -15,9 +15,9 @@ const Home = () => {
       <div class="content">
         <h1>
         <ReactTyped strings={["ReactSafe"]} 
-         typeSpeed={150}
+         typeSpeed={160}
          backSpeed={100}
-         cursorChar="|"
+         cursorChar="!"
          showCursor={true} /></h1>
         {/* <Link to="http://127.0.0.1:5505/" class="btn">Get Started</Link > */}
 
