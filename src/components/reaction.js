@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Reaction = () => {
     return (
-        <>
+       <div>
        <div className="background">
           <div className="content">
             <h1 className="title">Reaction Time Test</h1>
@@ -82,7 +82,7 @@ const Reaction = () => {
             </span>
         </div>
     </footer>
-</>
+</div>
       );
 };
 

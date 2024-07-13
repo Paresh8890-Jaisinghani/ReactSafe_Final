@@ -39,7 +39,7 @@ function LastPage() {
       
       <div class="content">
       <h1 className='tit'>Thank you for{" "}</h1>
-      <h1 className='tit'>{" "}<ReactTyped strings={[" Participating."]} 
+      <h1 className='tit'>{" "}&nbsp;<ReactTyped strings={["Participating."]} 
          typeSpeed={100}
          backSpeed={100}
          cursorChar="|"

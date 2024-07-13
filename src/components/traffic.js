@@ -30,7 +30,7 @@ const Traffic = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">About</h2>
-        <p>Improve your timing and awareness while driving with this challenging and exciting Traffic Light Simulation game.</p>
+        <p>Improve your timing and awareness while driving with this challenging and exciting Traffic Light Simulation test.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">
