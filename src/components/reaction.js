@@ -4,6 +4,8 @@ import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/reaction.css';
 import sample from './images/reaction1.mp4'
+import { ReactTyped } from "react-typed";
+import {MovingComponent} from "react-moving-text";
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +14,17 @@ const Reaction = () => {
        <div>
        <div className="background">
           <div className="content">
-            <h1 className="title">Reaction Time Test</h1>
+            <h1 className="title">
+            <MovingComponent
+ type="fadeIn"
+ duration="1600ms"
+ delay="0s"
+ direction="normal"
+ timing="linear"
+ iteration="1"
+ fillMode="none">
+  Reaction Time Test
+</MovingComponent></h1>
             {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}

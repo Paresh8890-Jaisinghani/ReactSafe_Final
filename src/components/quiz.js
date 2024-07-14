@@ -3,7 +3,9 @@ import work from './images/work.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/quiz.css';
+import {MovingComponent} from "react-moving-text";
 import quiz1 from './images/quiz1.mp4'
+
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +14,20 @@ const Quiz = () => {
         <>
        <div className="back">
           <div className="content">
-            <h1 className="title">Traffic Sign Quiz</h1>
+            
+            <h1 className="title"> 
+            <MovingComponent
+ type="fadeIn"
+ duration="1600ms"
+ delay="0s"
+ direction="normal"
+ timing="linear"
+ iteration="1"
+ fillMode="none">
+  Traffic Sign Quiz
+</MovingComponent>
+            
+            </h1>
             {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}

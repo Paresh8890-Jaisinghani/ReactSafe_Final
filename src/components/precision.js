@@ -4,6 +4,7 @@ import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/precision.css';
 import precision from './images/precision.mp4'
+import {MovingComponent} from "react-moving-text"
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +13,17 @@ const Precision = () => {
         <>
        <div className="bac">
           <div className="content">
-            <h1 className="title">Precision Timer Challenge</h1>
+            <h1 className="title">
+            <MovingComponent
+ type="fadeIn"
+ duration="1600ms"
+ delay="0s"
+ direction="normal"
+ timing="linear"
+ iteration="1"
+ fillMode="none">
+  Precision Timer Challenge
+</MovingComponent></h1>
             {/* <a href='http://localhost:3000/task1'>
             <button className="continue-button">Continue</button>
             </a>     */}
