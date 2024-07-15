@@ -152,7 +152,7 @@ const About = () => {
           <li className="card">
             <h3>Traffic Sign Quiz</h3>
             <p>• Tests drivers' knowledge of traffic signals <span className='left'> and signs.</span></p>
-            <p>• Helps drivers understand and remember <span className='left'>traffic rules.</span></p>
+            <p>• Help drivers understand and remember <span className='left'>traffic rules.</span></p>
             <p>• Promotes safer driving and reduces <span className='left'>accidents.</span></p>
           </li>
           <li className="card">

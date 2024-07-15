@@ -61,16 +61,14 @@ const Task2 = () => {
           <div className="info">
           2. Once you select your answer, it can't be changed.
           </div>
-          <div className="info"> 3. You can't select any option once the time is up.
+          <div className="info">
+          3. You'll get points on the basis of your correct answers.
           </div>
           <div className="info">
-          4. You'll get points on the basis of your correct answers.
+          4. We recommend that you look at the test demo below.
           </div>
           <div className="info">
-          5. We recommend that you look at the test demo below.
-          </div>
-          <div className="info">
-          6. Good luck! For the test.
+          5. Good luck! For the test.
           </div>
         </div>
         <div className="buttons">

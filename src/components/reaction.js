@@ -1,5 +1,5 @@
 import React from 'react';
-import work from './images/work.png'
+import work from './images/test.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/reaction.css';
@@ -42,7 +42,7 @@ const Reaction = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">About</h2>
-        <p>Test and improve your driving reflexes with our interactive, fun, and engaging reaction time test.</p>
+        <p>This test measures drivers' reaction time to sudden events, ensuring they can respond quickly and maintain road safety.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">

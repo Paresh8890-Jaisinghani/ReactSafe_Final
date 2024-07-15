@@ -42,7 +42,7 @@ const Contact = () => {
                     email:  email,
                     otp:code
                 });
-                alert("email successfully sent ,check inbox");
+                alert("Email sent successfully; please check your inbox.");
             }
             catch(e){
                 console.log(e);
