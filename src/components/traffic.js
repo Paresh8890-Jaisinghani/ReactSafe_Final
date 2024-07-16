@@ -1,5 +1,5 @@
 import React from 'react';
-import work from './images/work.png'
+import work from './images/test.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/traffic.css';
@@ -43,7 +43,7 @@ const Traffic = () => {
               height="140"
             />
             <h2 className="fw-normal mt-4">About</h2>
-            <p>Improve your timing and awareness while driving with this challenging and exciting Traffic Light Simulation test.</p>
+            <p>This test aims to teach drivers how to quickly recognize and respond to green signals, which is crucial for promoting safe and effective traffic navigation.</p>
 
           </div>
           <div className="col-lg-4 d-flex flex-column align-items-center text-center">

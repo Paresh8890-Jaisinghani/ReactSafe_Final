@@ -1,5 +1,5 @@
 import React from 'react';
-import work from './images/work.png'
+import work from './images/test.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/obstacle.css';
@@ -41,7 +41,7 @@ const Obstacle = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">About</h2>
-        <p>Improve your reflexes and awareness while driving with this challenging and exciting Obstacle Test.</p>
+        <p>This test aims to improve drivers' ability to safely navigate through traffic obstacles, thereby reducing accident risks and promoting safer driving habits.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">

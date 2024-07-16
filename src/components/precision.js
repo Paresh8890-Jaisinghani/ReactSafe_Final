@@ -1,5 +1,5 @@
 import React from 'react';
-import work from './images/work.png'
+import work from './images/test.png'
 import score from './images/score.png'
 import intro from './images/intro.png'
 import './stylesheet/precision.css';
@@ -41,7 +41,7 @@ const Precision = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">About</h2>
-        <p>Improve your timing and precision while driving with this challenging and exciting Precision Timer Test.</p>
+        <p>This test aims to improve drivers' timing abilities by assessing precision, which is crucial for maintaining control and safety on the road.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">
