@@ -44,15 +44,15 @@ const Task3 = () => {
                         <span>Instructions</span>
                     </div>
                     <div className="info-list">
-                        <div className="info">1. Click the "Start Timer" button to start the countdown.</div>
-                        <div className="info">2. The timer will be visible for the first <b>5 seconds</b>.</div>
-                        <div className="info">3. After 5 seconds, the timer will be hidden but<span className="left">continue to <b>count in mind</b>.</span></div>
-                        <div className="info">4. Click the "Stop Timer" button at the <b>target time of 10 <span className="left">seconds.</span></b></div>
+                        <div className="info">1. Click the <b>"Start Timer"</b> button to start the countdown.</div>
+                        {/* <div className="info">2. The timer will be visible for the first <b>5 seconds</b>.</div> */}
+                        <div className="info">2. After 5 seconds, the timer will be hidden but<span className="left">continue to <b>count in mind</b>.</span></div>
+                        <div className="info">3. Click the "Stop Timer" button at the <b>target time of 10 <span className="left">seconds.</span></b></div>
                         <div className="info">
-                            5. We recommend that you look at the test demo below.
+                            4. We recommend that you look at the test demo below.
                         </div>
                         <div className="info">
-                            6. Good luck, and be as accurate as possible!
+                            5. Good luck, and be as accurate as possible!
                         </div>
                     </div>
                     <div className="buttons">

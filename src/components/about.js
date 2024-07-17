@@ -10,6 +10,8 @@ import  obstacle from './images/obstacle.jpg'
 import trafficlight from './images/trafficlight.jpg'
 import quiz from  './images/quiz.jpg'
 import precision from './images/precision.jpg'
+import {ReactTyped} from "react-typed";
+
 
 const About = () => {
   useEffect(() => {
@@ -69,7 +71,15 @@ const About = () => {
         <section className="homepage" id="home">
           <div className="conte">
             <div className="text">
-              <h1>Elevating Road Safety Through Assessment</h1>
+              <h1>Elevating Road Safety Through{" "}</h1>
+              <h1><ReactTyped
+          strings={["Assessment", "Testing", "Evaluation"]}
+          typeSpeed={100}
+          loop
+          backSpeed={50}
+          cursorChar="|"
+          showCursor={true}
+        /></h1>
             </div>
             <div className='regi'>
             <a href="/contact">Registration Form -&gt;</a>
@@ -180,7 +190,7 @@ const About = () => {
         <div>
           <span>Copyright © 2024 All Rights Reserved</span>
           <span className="link">
-            <a href="/">Home</a>
+            <a href="/contact">Register</a>
           </span>
         </div>
       </footer>
