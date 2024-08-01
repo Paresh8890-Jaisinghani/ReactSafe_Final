@@ -1,5 +1,4 @@
 import React from 'react';
-import MissionSection from './stylesheet/mission.js';
 import OurCreativeMind from './stylesheet/creative.js';
 import './stylesheet/last.css'
 import { ReactTyped } from "react-typed";
