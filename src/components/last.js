@@ -38,7 +38,7 @@ function LastPage() {
       </video>
       
       <div class="content">
-      <h1 className='tit'>Thank you for{" "}</h1>
+      <h1 className='tit'>Thank you for your{" "}</h1>
       <h1 className='tit'>{" "}&nbsp;<ReactTyped strings={["Participation"]} 
          typeSpeed={100}
          backSpeed={100}

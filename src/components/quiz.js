@@ -57,7 +57,7 @@ const Quiz = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">Test</h2>
-        <p>Our quiz will test your knowledge of traffic signs. Correctly answering questions can improve your understanding of traffic symbols.</p>
+        <p>Answer questions correctly to improve your understanding of traffic symbols, enhancing your knowledge and road safety.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">

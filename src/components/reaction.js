@@ -54,7 +54,7 @@ const Reaction = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">Test</h2>
-        <p>Measure your reaction time by clicking quickly when a visual signal appears. Track and improve your reflexes.</p>
+        <p>Test your reaction time by clicking quickly when a visual signal appears on the screen, measuring how fast you respond.</p>
        
       </div>
       <div className="col-lg-4 d-flex flex-column align-items-center text-center">

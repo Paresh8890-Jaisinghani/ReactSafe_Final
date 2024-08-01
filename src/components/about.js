@@ -71,9 +71,9 @@ const About = () => {
         <section className="homepage" id="home">
           <div className="conte">
             <div className="text">
-              <h1>Elevating Road Safety Through{" "}</h1>
+              <h1>Promoting Road Safety Through{" "}</h1>
               <h1><ReactTyped
-          strings={["Assessment", "Testing", "Evaluation"]}
+          strings={["Testing", "Evaluation","Feedback"]}
           typeSpeed={100}
           loop
           backSpeed={50}

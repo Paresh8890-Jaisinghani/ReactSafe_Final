@@ -53,7 +53,7 @@ const Obstacle = () => {
           height="140"
         />
         <h2 className="fw-normal mt-4">Test</h2>
-        <p>Enhance your driving awareness with our Obstacle Test by switching lanes precisely to avoid approaching cars.
+        <p>Enhance your driving awareness with our Obstacle Test by precisely switching lanes to avoid oncoming cars and potential hazards.
 </p>
        
       </div>
